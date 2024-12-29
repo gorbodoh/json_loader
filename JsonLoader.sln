@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonLoader", "JsonLoader\JsonLoader.csproj", "{CE176AC4-56AC-4AF6-8252-981B42B08514}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonLoaderPackage", "JsonLoaderPackage\JsonLoaderPackage.csproj", "{4B1DBB99-B3E2-4767-8CC2-2515A1581C7C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

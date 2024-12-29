@@ -1,7 +1,3 @@
-using System.Net.Sockets;
-
-namespace JsonLoaderPackage;
-
 public class User
 {
     public int Id { get; set; }
