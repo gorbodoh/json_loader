@@ -1,11 +1,11 @@
 ﻿namespace JsonLoaderPackage;
 
-public class JsonLoaderService
+using System.Text.Json;
+
+public static class JsonLoaderService
 {
-    public static Boolean LoadJson(string filePath)
+    public static void LoadJson(string filePath)
     {
         Console.WriteLine($"JsonLoaderService.LoadJson() invoked! You have parsed in \"{filePath}\"!");
-
-        return true;
     }
 }
