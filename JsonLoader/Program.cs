@@ -19,11 +19,11 @@ namespace JsonLoader
             Console.WriteLine("Hello World!");
             Console.WriteLine();
 
+            // This website provides lots of Json datasets for testing: https://jsonplaceholder.typicode.com
+            await LoadJsonHTTP(uri);
+
             // Load Json file as string.
             LoadJsonAsString(filePath);
-
-            // This website provides lots of Json datasets for testing: https://jsonplaceholder.typicode.com
-            // await LoadJsonHTTP(uri);
         }
 
         /**
